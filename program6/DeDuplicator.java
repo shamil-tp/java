@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class DeDuplicator {
     public static void main(String args[]){
         Scanner scn = new Scanner(System.in);
@@ -14,7 +15,9 @@ class DeDuplicator {
                 }
             }
         }
+
         System.out.print("\nfinal array is: ");
+
         for(int k = 0;k<arr.length;k++){
             System.out.print(k);
         }

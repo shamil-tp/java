@@ -19,9 +19,9 @@ class DeDuplicator {
         System.out.print("\nfinal array is: ");
 
         for(int k = 0;k<arr.length;k++){
-            System.out.print(k);
+            System.out.print(arr[k]);
         }
-        
+
         scn.close();
     }
 }

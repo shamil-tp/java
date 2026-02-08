@@ -21,6 +21,7 @@ class DeDuplicator {
         for(int k = 0;k<arr.length;k++){
             System.out.print(k);
         }
+        
         scn.close();
     }
 }
